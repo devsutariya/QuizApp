@@ -24,14 +24,21 @@ Backend: Spring Boot (Java), REST APIs
 Database: MySQL
 Other Tools: Node.js, Maven, Postman, IDEs (VS Code / IntelliJ)
 
-# ⚙️ Setup Instructions
+# 🚀 Features
 
-1️⃣ Clone the Repository
-  git clone https://github.com/your-username/quiz-system.git
-  cd quiz-system
-2️⃣ Setup Backend (Spring Boot)
-  cd quizserver-java
-  mvn clean install
-  mvn spring-boot:run
-  - The backend will start on: http://localhost:8080
+🔑 User login & registration
 
+❓ Randomized quiz questions
+
+⏱️ Countdown timer for quizzes
+
+📝 Automatic score calculation
+
+📊 Instant result display
+
+💾 Secure data storage (users, quizzes, results)
+
+# 🏁 Conclusion
+
+This project demonstrates a full-stack web application suitable for educational and training purposes.
+It ensures simplicity, scalability, and interactivity, providing an engaging experience for both learners and administrators.
