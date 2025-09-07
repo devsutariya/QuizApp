@@ -1,0 +1,52 @@
+.child{
+    padding: 50px;
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 1px 1px 15px -7px(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+nz-form-control{
+    min-width: 280px;
+}
+
+.parent{
+    margin-top: 40px;
+}
+
+.login-form-button{
+    width: 30%;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    float: right;
+    border-radius: 5px;
+    background-color: #001529;
+    color: white;
+}
+button:hover {
+  background-color: #1E293B; 
+  color: white; 
+  transform: translateY(-2px);
+  box-shadow: #1E293B;
+}
+
+/* Active (when clicked) */
+button:active {
+  transform: scale(0.96);
+  box-shadow: #1E293B;
+}
+
+nz-divider{
+    padding-bottom: 10px;
+}
+
+.preview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

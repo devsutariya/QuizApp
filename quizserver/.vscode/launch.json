@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-QuizserverApplication<quizserver>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.quizserver.QuizserverApplication",
+            "projectName": "quizserver",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

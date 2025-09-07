@@ -1,0 +1,16 @@
+<div class="main">
+    <div nz-row>
+        <div nz-col nzSpan="24" style="margin-bottom:20px;">
+            <nz-table [nzData]="items$ | async">
+            <span style="margin: 20px;" *ngFor="let test of tests">
+                <nz-card [nzBordered]="true" class="test" nzTitle="{{test.title}}">
+                    <p><strong>Time:</strong>{{getFormattedTime(test.time)}}</p>
+                    <p><strong>Description:</strong>{{test.description}}</p>
+                    <button nz-button class="btn-view" routerLink="/admin/view-test/{{test.id}}">View Test</button>
+                    <button nz-button style="margin-right:50px;" routerLink="/admin/add-question/{{test.id}}">Add Question</button>
+                </nz-card>
+            </span>
+            </nz-table>
+        </div>
+    </div>
+</div>
